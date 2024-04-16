@@ -5,6 +5,7 @@ import SearchBox from "@/components/SearchBox";
 import { RiSettings3Line } from "react-icons/ri";
 import { AiOutlineApps } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
+import SearchHeaderOptions from "./SearchHeaderOptions";
 
 function SearchHeader() {
   return (
@@ -31,6 +32,7 @@ function SearchHeader() {
           Sign in
         </button>
       </div>
+      <SearchHeaderOptions />
     </header>
   );
 }
